@@ -21,6 +21,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  late final TextEditingController _email;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
