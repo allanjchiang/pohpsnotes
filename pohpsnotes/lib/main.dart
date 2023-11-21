@@ -50,8 +50,9 @@ class _HomePageState extends State<HomePage> {
         children: [
           TextField(
             controller: _email,
-            decoration:
-                const InputDecoration(hintText: 'Enter your email here'),
+            decoration: const InputDecoration(
+              hintText: 'Enter your email here',
+            ),
           ),
           TextField(
             controller: _password,
