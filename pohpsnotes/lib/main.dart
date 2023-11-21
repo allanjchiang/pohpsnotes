@@ -25,6 +25,12 @@ class _HomePageState extends State<HomePage> {
   late final TextEditingController _password;
 
   @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
