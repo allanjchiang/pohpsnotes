@@ -34,6 +34,8 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void dispose() {
+    _email.dispose();
+    _password.dispose();
     // TODO: implement dispose
     super.dispose();
   }
