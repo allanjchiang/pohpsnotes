@@ -26,6 +26,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void initState() {
+    _email = TextEditingController();
     // TODO: implement initState
     super.initState();
   }
