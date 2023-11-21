@@ -24,6 +24,8 @@ class HomePage extends StatelessWidget {
       ),
       body: Column(
         children: [
+          TextField(),
+          TextField(),
           TextButton(onPressed: () async {}, child: const Text('Register')),
         ],
       ),
